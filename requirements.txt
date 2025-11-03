@@ -1,4 +1,5 @@
 aiohttp[speedups]
+setuptools<81
 aiohttp
 aiofiles
 aioshutil
@@ -31,7 +32,7 @@ psutil
 pybase64
 pycountry
 pymongo
-pyrofork==2.2.11
+pyrofork==2.3.68
 python-dotenv
 python-magic
 pytz

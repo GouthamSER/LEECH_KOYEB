@@ -273,9 +273,9 @@ async def main():
     bot.add_handler(MessageHandler(bot_help, filters=command(BotCommands.HelpCommand) & CustomFilters.authorized & ~CustomFilters.blacklisted))
     bot.add_handler(MessageHandler(stats, filters=command(BotCommands.StatsCommand) & CustomFilters.authorized & ~CustomFilters.blacklisted))
 
-    LOGGER.info(f"WZML-X Bot [@{bot_name}] Started!")
+    LOGGER.info(f"Leech Bot [@{bot_name}] Started!")
     if user:
-        LOGGER.info(f"WZ's User [@{user.me.username}] Ready!")
+        LOGGER.info(f"Leech's User [@{user.me.username}] Ready!")
 
     signal(SIGINT, exit_clean_up)
 

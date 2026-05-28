@@ -215,10 +215,10 @@
 ## 🗄 ***Deployment Guide***
 
 <details>
-  <summary><b>Expand All Steps to Deploy <sup><kbd>Click Here</kbd></sup></b></summary>
+  <summary><b>Deploy In Google Collob [HEROKU] <sup><kbd>Click Here</kbd></sup></b></summary>
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GouthamSER/Leech-Heroku/blob/main/leech_hk_deploy.ipynb)
-
+</details>
 <details>
   <summary><b>View All Steps</b> <sup><kbd>Click Here</kbd></sup></summary>
     <ol><li><details>
